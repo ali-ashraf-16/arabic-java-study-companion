@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project architecture
+- Keep chapter copy, glossary, examples, and diagram identifiers in a typed data module separate from route UI so lesson content stays maintainable.
+- Generate downloadable study PDFs through the browser print stylesheet so Arabic text and the inline diagrams remain selectable and readable without an external PDF service.
